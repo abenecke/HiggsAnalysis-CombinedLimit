@@ -30,7 +30,6 @@
 	<class name="std::vector<std::vector<std::vector<std::vector<Double_t>>>>::const_iterator" />
 	<class name="std::vector<std::vector<std::vector<std::vector<std::vector<Double_t>>>>>::const_iterator" />
 	<class name="std::vector<std::vector<std::vector<std::vector<std::vector<std::vector<Double_t>>>>>>::const_iterator" />
-
 	<class name="std::map<int, std::vector<double>>"/>
 	<class name="std::map<int, std::pair<double,double>>"/>
 
@@ -196,14 +195,21 @@
 	<class name="VerticalInterpHistPdf" />
 	<class name="VerticalInterpPdf" />
 	<class name="GaussExp" />
+	<class name="BkgPdf4p" />
+	<class name="BkgPdfExp2" />
+	<class name="SignalDoubleGauss" />
+	<class name="SignalDoubleGauss_M600" />
+	<class name="SignalDoubleGauss_M1000" />
+	<class name="BkgPdf3p" />
+	<class name="BkgPdf2p" />
 	<class name="RooParametricHist" />
 	<class name="RooParametricShapeBinPdf" />
 	<class name="RooMorphingPdf" />
         <function name="function th1fmorph" />
   <class name="CMSHistFunc" />
+  <class name="SimpleTaylorExpansion1D" />
   <class name="CMSHistErrorPropagator" />
   <class name="CMSHistFuncWrapper" />
-  <class name="SimpleTaylorExpansion1D" />
   <class name="RooTaylorExpansion" />
 	<class name="RooDoubleCBFast" />
 	<class name="CombDataSetFactory"  transient="true" />
@@ -211,6 +217,4 @@
 	<class name="cmsmath::SequentialMinimizer"  transient="true" />
 	<class name="rVrFLikelihood"  transient="true" />
         <class name="TestProposal"  transient="true" />
-
-
 </lcgdict>

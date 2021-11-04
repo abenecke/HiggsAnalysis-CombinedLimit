@@ -63,6 +63,13 @@
 #include "HiggsAnalysis/CombinedLimit/interface/RooNCSpline_2D_fast.h"
 #include "HiggsAnalysis/CombinedLimit/interface/RooNCSpline_3D_fast.h"
 #include "HiggsAnalysis/CombinedLimit/interface/RooFuncPdf.h"
+#include "HiggsAnalysis/CombinedLimit/interface/BkgPdf4p.h"
+#include "HiggsAnalysis/CombinedLimit/interface/BkgPdfExp2.h"
+#include "HiggsAnalysis/CombinedLimit/interface/SignalDoubleGauss.h"
+#include "HiggsAnalysis/CombinedLimit/interface/SignalDoubleGauss_M600.h"
+#include "HiggsAnalysis/CombinedLimit/interface/SignalDoubleGauss_M1000.h"
+#include "HiggsAnalysis/CombinedLimit/interface/BkgPdf3p.h"
+#include "HiggsAnalysis/CombinedLimit/interface/BkgPdf2p.h"
 
 namespace {
     struct dictionary {
